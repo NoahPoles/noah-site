@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Noah Poles — Copywriter & Content Creator</title>
+  <meta name="description" content="Freelance copywriter and content creator. Engaging blog posts, persuasive marketing copy, and polished editing.">
+  <style>
+    :root{ --bg:#0f1220; --card:#161a2b; --text:#eef1ff; --muted:#b8bfe6; --accent:#79a8ff; --btn:#2f6bff; }
+    *{box-sizing:border-box}
+    body{margin:0; font-family: system-ui,-apple-system,Segoe UI,Roboto,Inter,Ubuntu,Arial,sans-serif; background:linear-gradient(180deg,#0b0e1a, #12172a); color:var(--text);}
+    .container{max-width:900px; margin:0 auto; padding:40px 24px}
+    header{padding:32px; background:var(--card); border:1px solid rgba(255,255,255,.06); border-radius:20px; box-shadow: 0 10px 30px rgba(0,0,0,.25); text-align:center}
+    h1{margin:0 0 10px 0; font-size:32px; letter-spacing:.3px}
+    .sub{margin:0; color:var(--muted); font-size:16px}
+    .badges{margin:18px auto 0; display:flex; gap:10px; flex-wrap:wrap; justify-content:center}
+    .badge{background:#0e1330; border:1px solid rgba(255,255,255,.08); color:var(--muted); padding:6px 10px; border-radius:999px; font-size:12px}
+    .cta{display:flex; gap:12px; margin:22px auto 0; justify-content:center; flex-wrap:wrap}
+    .btn{appearance:none; border:none; padding:12px 16px; border-radius:12px; font-weight:600; cursor:pointer; text-decoration:none; color:#fff; background:var(--btn);}
+    .btn.secondary{background:transparent; border:1px solid rgba(255,255,255,.18); color:var(--text)}
+    section{margin-top:24px; display:grid; grid-template-columns:1fr; gap:24px}
+    .card{background:var(--card); border:1px solid rgba(255,255,255,.06); border-radius:20px; padding:24px;}
+    h2{margin:0 0 12px 0; font-size:20px}
+    p{color:var(--muted); line-height:1.65}
+    ul{margin:8px 0 0 18px; color:var(--muted)}
+    footer{margin:28px 0; color:#93a2ff77; font-size:12px; text-align:center}
+    a.link{color:var(--accent)}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Noah Poles</h1>
+      <p class="sub">Freelance Copywriter & Content Creator — blog posts, marketing copy, and polished editing.</p>
+      <div class="badges">
+        <span class="badge">Blog & Article Writing</span>
+        <span class="badge">Sales Copy</span>
+        <span class="badge">Editing & Proofreading</span>
+        <span class="badge">SEO Writing</span>
+      </div>
+      <div class="cta">
+        <a class="btn" href="https://www.upwork.com/" target="_blank" rel="noopener">Hire me on Upwork</a>
+        <a class="btn secondary" href="https://www.fiverr.com/" target="_blank" rel="noopener">Order on Fiverr</a>
+      </div>
+    </header>
+
+    <section>
+      <div class="card">
+        <h2>About</h2>
+        <p>I help businesses communicate with clarity, creativity, and impact. I write engaging blog posts and persuasive marketing copy, and I edit content so every word earns its place.</p>
+        <p>Clear process, fast turnaround, and collaborative feedback — so you get content that sounds like you and moves your audience to act.</p>
+        <h2 style="margin-top:16px">Services</h2>
+        <ul>
+          <li>Articles & blog posts (500–1,500 words)</li>
+          <li>Sales & marketing copy (landing pages, emails, ads)</li>
+          <li>Editing & proofreading (grammar, tone, flow)</li>
+          <li>SEO writing (keywords woven naturally)</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h2>Contact</h2>
+        <p>Email: <a class="link" href="mailto:noampoles@gmail.com">noampoles@gmail.com</a></p>
+        <p>Available worldwide — remote.</p>
+      </div>
+    </section>
+
+    <footer>
+      © <span id="year"></span> Noah Poles. All rights reserved.
+    </footer>
+  </div>
+  <script>document.getElementById('year').textContent = new Date().getFullYear()</script>
+</body>
+</html>
